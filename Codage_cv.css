@@ -219,8 +219,10 @@ html {
     margin-top: 0;
 }
 .bouton{
-    display: inline-block;
+    display: flex;
     background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 1rem;
     color: #eeeeee;
     text-align: center;
@@ -234,6 +236,10 @@ html {
     position:fixed;
     bottom:1%;
     right:1%;
+}
+
+.pad{
+    padding-left: 1rem;
 }
 
 .survol:hover{
